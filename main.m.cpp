@@ -1,5 +1,4 @@
 // main.m.cpp
-
 #include <iostream>
 #include "weapon.h"
 #include "actor.h"
