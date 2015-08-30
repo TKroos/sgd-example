@@ -10,9 +10,11 @@ int main()
 
 	std::cout << "Hello\n";
 	std::cout << weapon << "\n";
-	std::cout << "Goodbye\n";
 
-	sgde::Actor actor( &weapon ); 
+	sgde::Actor actor( &weapon );
+	std::cout << "Actor: " << actor << "\n";
+
+	std::cout << "Goodbye\n"; 
 
 	return 0;
 }

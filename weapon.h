@@ -37,7 +37,7 @@ class Weapon
 
 // FREE OPERATORS
 inline
-std::ostream& operator<<(std::ostream& stream, const Weapon& weapon)
+std::ostream& operator<<( std::ostream& stream, const Weapon& weapon )
 {
 	return stream << "{ dps : " << weapon.damagePerSecond() <<
 		", str : " << weapon.requiredStrength() << " }";
