@@ -6,15 +6,15 @@
 
 int main()
 {
-        sgde::Weapon weapon( 7.1f, 3 );
+    sgde::Weapon weapon( 7.1f, 3 );
 
-        std::cout << "Hello\n";
-        std::cout << weapon << "\n";
+    std::cout << "Hello\n";
+    std::cout << weapon << "\n";
 
-        sgde::Actor actor( &weapon );
-        std::cout << "Actor: " << actor << "\n";
+    sgde::Actor actor( &weapon );
+    std::cout << "Actor: " << actor << "\n";
 
-        std::cout << "Goodbye\n"; 
+    std::cout << "Goodbye\n"; 
 
-        return 0;
+    return 0;
 }
